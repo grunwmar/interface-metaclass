@@ -55,7 +55,6 @@ class Interface(type):
                     invalid_items[ann] = (tp, m)
 
         if len(undefined_items) > 0:
-            attr = ", ".join([f'"{k!s}:{v!r}"' for k,v in undefined_items.items()])
             raise NotDefinedInterfaceError(undefined_items)
 
         if len(invalid_items) > 0:
