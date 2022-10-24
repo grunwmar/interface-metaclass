@@ -1,6 +1,6 @@
 # Interface metaclass
 
-Definig a cell interface ,then defining bacterial, archeal and eukaryotic cells
+Definig a cell interface, then defining bacterial, archeal and eukaryotic cells
 ```python
 from interface import Interface
 
