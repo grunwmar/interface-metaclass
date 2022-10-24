@@ -1,6 +1,6 @@
 # Interface metaclass
 
-*Definig a cell interface ,then defining bacterial, archeal and eukaryotic cells*
+Definig a cell interface ,then defining bacterial, archeal and eukaryotic cells
 ```python
 from interface import Interface
 
@@ -81,5 +81,4 @@ class Eukaryote(ICell):
     return self._chromosome
 ```
 
-*There are defined three exceptions*
-`InterfaceError`, `NotDefinedInterfaceError`, `InvalidTypeInterfaceError`
+There are defined three exceptions `InterfaceError` and its derived `NotDefinedInterfaceError` and `InvalidTypeInterfaceError`. Their detailed description is found in `__doc__` strings in `interface.py`
