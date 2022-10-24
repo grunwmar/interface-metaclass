@@ -81,4 +81,4 @@ class Eukaryote(ICell):
     return self._chromosome
 ```
 
-There are defined three exceptions `InterfaceError` and its derived `NotDefinedInterfaceError` and `InvalidTypeInterfaceError`. Their detailed description is found in `__doc__` strings in `interface.py`
+There are defined three exceptions `InterfaceError` and its derived `NotDefinedInterfaceError` and `InvalidTypeInterfaceError`. Their detailed description is found in `__doc__` strings in `interface.py`.
